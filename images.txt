@@ -1,5 +1,17 @@
-nginx
-alpine
+# Python 基础镜像 - 后端服务使用
+python:3.9-slim
+
+# Node.js 基础镜像 - 前端服务使用
+node:16-alpine
+
+# Nginx 基础镜像 - 反向代理使用
+nginx:alpine
+
+# 可选：如果需要多架构支持，可以指定平台
+# python:3.9-slim --platform=linux/amd64
+# node:16-alpine --platform=linux/amd64
+# nginx:alpine --platform=linux/amd64
+
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
