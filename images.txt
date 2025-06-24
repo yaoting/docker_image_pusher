@@ -3,6 +3,7 @@ python:3.9-slim
 
 # Node.js 基础镜像 - 前端服务使用
 node:16-alpine
+node:20-alpine
 
 # Nginx 基础镜像 - 反向代理使用
 nginx:alpine
