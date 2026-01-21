@@ -1,5 +1,6 @@
 # Python 基础镜像 - 后端服务使用
 python:3.9-slim
+python:3.11-slim
 
 # Node.js 基础镜像 - 前端服务使用
 node:16-alpine
